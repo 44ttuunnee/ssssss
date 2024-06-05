@@ -1,0 +1,108 @@
+.wrapper {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(#4C9E62, #206F35);
+    padding: 2%;
+    overflow: hidden;
+}
+
+header .logo {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 49%;
+    float: left;
+}
+
+header .links {
+    overflow: hidden;
+    width: 35%;
+    float: right;
+    text-align: right;
+    margin-top: 0.5%;
+    display: flex;
+    gap: 5%;
+}
+
+header .links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.main-title {
+    background-image: url(./IMAGES/for\ siIIIIte.png);
+    height: 73vh;
+    background-size: cover;
+    background-position: right bottom 7%;
+    position: relative; 
+}
+
+.center-button {
+    position: absolute;
+    top: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #4C9E62;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.center-button a {
+    color: white;
+    font-size: 1.5em;
+    padding: 2%;
+    text-decoration: none;
+}
+
+.center-button:hover {
+    background-color: #206F35;
+}
+
+footer {
+    background: linear-gradient(#4C9E62, #206F35);
+    padding: 1%;
+    overflow: hidden;
+}
+
+.title-social-media {
+    width: 18%;
+    text-align: center;
+    float: left;
+}
+
+.title-social-media h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.title-social-media img {
+    width: 80%;
+}
+
+.contacts {
+    width: 80%;
+    overflow: hidden;
+    float: left;
+    margin-top: 0.8%;
+}
+
+.contacts img {
+    width: 83%;
+    float: right;
+}
+
+.links .current-page {
+    color: white;
+}

@@ -1,0 +1,238 @@
+.wrapper {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background: linear-gradient(#4C9E62, #206F35);
+    padding: 2%;
+    overflow: hidden;
+}
+
+header .logo {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 49%;
+    float: left;
+    
+}
+
+header .links {
+    overflow: hidden;
+    width: 35%;
+    float: right;
+    text-align: right;
+    margin-top: 0.5%;
+    display: flex;
+    gap: 5%;
+    
+}
+
+header .links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    
+}
+
+.main-title {
+    text-align: center;
+    padding: 3%;
+}
+
+.divider {
+    background-color: #4C9E62;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divider p {
+    margin: 0;
+    padding-left: 2%;
+    
+}
+
+.main-dishes {
+    background-color: #4C9E62;
+    width: 95%;
+    margin: 1% auto;
+    overflow: hidden;
+    padding: 2%;
+}
+
+.dish {
+    overflow: hidden;
+}
+
+.dish-image {
+    width: 33.2%;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.dish-image img {
+    width: 100%;
+    display: block;
+    transition: filter 0.3s; /* Transition for darkening effect */
+}
+
+.dish-image img:hover {
+    filter: brightness(30%); /* Darken image */
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dish-image img:hover + .centered {
+    opacity: 1;
+}
+
+.dish img {
+    width: 90%;
+}
+
+.dish-description {
+    overflow: hidden;
+}
+
+
+
+.main-drinks {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #4C9E62;
+    width: 95%;
+    margin: 1% auto;
+    overflow: hidden;
+    padding: 2%;
+}
+
+.drink-image {
+    width: 20.2%;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.drink-image img {
+    
+    width: 100%;
+    display: block;
+    transition: filter 0.3s; /* Transition for darkening effect */
+}
+
+.drink-image img:hover {
+    filter: brightness(30%); /* Darken image */
+}
+
+.drink-image img:hover + .centered {
+    opacity: 1;
+    
+}
+
+
+.drink img {
+    width: 120%;
+}
+
+.drink-description {
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    
+}
+
+
+.assortiment-1 {
+    overflow: hidden;
+    float: left;
+    display: flex;
+    gap: 4%;
+    width: 50%;
+    margin-left: 8%;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.assortiment-2 {
+    float: left;
+    display: flex;
+    gap: 4%;
+    width: 50%;
+    margin-left: 8%;
+    border-bottom: 3px solid black;
+}
+
+.assortiment-option {
+    width: 30%;
+
+}
+
+li {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 25px;
+}
+
+
+footer {
+    background: linear-gradient(#4C9E62, #206F35);
+    padding: 1%;
+    overflow: hidden;
+}
+
+.title-social-media {
+    width: 18%;
+    text-align: center;
+    float: left;
+    
+}
+
+.title-social-media h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.title-social-media img {
+    width: 80%;
+}
+
+.contacts {
+    width: 80%;
+    overflow: hidden;
+    float: left;
+    margin-top: 0.8%;
+}
+
+.contacts img {
+    width: 83%;
+    float: right;
+}
+
+
+
+
+.links .current-page {
+    color: white;
+}
